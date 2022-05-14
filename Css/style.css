@@ -1,0 +1,133 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+::-webkit-scrollbar{
+    width: 20px;
+}
+::-webkit-scrollbar-track{
+    background: linear-gradient(#d4a855, #ecd9b1);
+    border-radius: 30px 
+}
+::-webkit-scrollbar-thumb{
+    background-color: #e9d4aa;
+    border-radius: 30px;
+}
+header{
+    padding: 15px;
+}
+.cabecalho{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+h1{
+    cursor: pointer;
+}
+nav{
+    position: absolute;
+    top: 75px;
+    right: 85px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav li a{
+    padding: 3px;
+}
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    transition: 1s all;
+}
+nav a:hover{
+    color: #2c2c2c;
+    text-decoration: underline;
+}
+nav a:active{
+    color: #000000;
+}
+li img{
+    transition: 1s all;
+}
+li img:hover{
+    transform: rotate(10deg);
+}
+main{
+    padding: 3em 0;
+}
+.Titulo-Principal{
+    text-align: center;
+    font-size: 3em;
+    margin: 0 0 1em;
+    clear: left;
+    text-shadow: 1px 1px black;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    color: black;
+    border: 3px solid black;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 1s all;
+}
+.espacamento{
+    padding: 3em 0;
+}
+.menuII li{
+    padding: 1em 0;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30p 20px;
+    box-sizing: border-box;
+    color: #000000;
+    border: 3px solid black;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 1s all;
+}
+.menu li:hover{
+    border-color: #2c2c2c;
+}
+.menu li:active{
+    border-color: #000000;
+}
+.menu li:hover p{
+    font-size: 22px;
+    font-weight: bold;
+}
+.menuII li:hover{
+    border-color: #2c2c2c;
+}
+.menuII li:active{
+    border-color: #000000;
+}
+.menuII li:hover p{
+    font-size: 22px;
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    padding: 40px 0;
+}
+footer img{
+    cursor: pointer;
+}
+.copyrith{
+    color: rgb(0, 0, 0);
+    margin: 40px 0 0;
+    font-size: 13px;
+    font-weight: bold;
+}
